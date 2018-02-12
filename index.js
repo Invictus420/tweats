@@ -40,12 +40,12 @@ mc.connect(url, function (err, client) {
             })
         })
         app.get('/salty', function (req, res) {
-            onePercent(1, function (top) {
+            salt(1, function (top) {
                 res.send(JSON.stringify(top));
             })
         })
         app.get('/fanperson', function (req, res) {
-            onePercent(-1, function (top) {
+            salt(-1, function (top) {
                 res.send(JSON.stringify(top));
             })
         })
