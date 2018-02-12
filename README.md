@@ -18,6 +18,7 @@ Api endpoints:
 4. /nolifr returns most active, by post count, user
 5. /salted shows grumpy, /unsalted shows happy
 
+Results:
 
 1. 659774
 2. [{"id":"lost_dog","mentions":549},
