@@ -16,27 +16,27 @@ Api endpoints:
 2. /topfriends returns the users who link others the most
 3. /famous returns the most mentioned users
 4. /nolifr returns most active, by post count, user
-5. /salted shows grumpy, /unsalted shows happy
+5. /salty shows grumpy, /fanperson shows happy
 
 Results:
 
 1. 659774
-2. [{"id":"lost_dog","mentions":549},
- {"id":"dogzero","mentions":334},
- {"id":"tweetpet","mentions":310},
- {"id":"VioletsCRUK","mentions":296},
- {"id":"tsarnick","mentions":258},
- {"id":"SongoftheOss","mentions":257},
- {"id":"what_bugs_u","mentions":246},
- {"id":"Karen230683","mentions":244},
- {"id":"keza34","mentions":239},
- {"id":"SallytheShizzle","mentions":234}]
+2. [{"id":"lost_dog","n_ggers":549},
+ {"id":"dogzero","n_ggers":334},
+ {"id":"tweetpet","n_ggers":310},
+ {"id":"VioletsCRUK","n_ggers":296},
+ {"id":"tsarnick","n_ggers":258},
+ {"id":"SongoftheOss","n_ggers":257},
+ {"id":"what_bugs_u","n_ggers":246},
+ {"id":"Karen230683","n_ggers":244},
+ {"id":"keza34","n_ggers":239},
+ {"id":"SallytheShizzle","n_ggers":234}]
  
- 3. [{"_id":"@mileycyrus","mentioned":4310},
- {"_id":"@tommcfly","mentioned":3837},
- {"_id":"@ddlovato","mentioned":3349},
- {"_id":"@Jonasbrothers","mentioned":1263},
- {"_id":"@DavidArchie","mentioned":1222}]
+ 3. [{"_id":"@mileycyrus","fame":4310},
+ {"_id":"@tommcfly","fame":3837},
+ {"_id":"@ddlovato","fame":3349},
+ {"_id":"@Jonasbrothers","fame":1263},
+ {"_id":"@DavidArchie","fame":1222}]
  
  4. [{"_id":"lost_dog","total":549},
  {"_id":"webwoke","total":345},
@@ -49,14 +49,14 @@ Results:
  {"_id":"Karen230683","total":238},
  {"_id":"DarkPiano","total":236}]
  
- 5. [{"_id":"alyssa_f17","avg":0},
- {"_id":"catfuel","avg":0},
- {"_id":"IntheOffing","avg":0},
- {"_id":"caffeinated_mom","avg":0},
- {"_id":"mattfca","avg":0}]
+ 5. [{"_id":"alyssa_f17","saltyness":0},
+ {"_id":"catfuel","saltyness":0},
+ {"_id":"IntheOffing","saltyness":0},
+ {"_id":"caffeinated_mom","saltyness":0},
+ {"_id":"mattfca","saltyness":0}]
  
- [{"_id":"RobFoxKerr","avg":4},
-{"_id":"puchal_ek","avg":4},
-{"_id":"EvolveTom","avg":4},
-{"_id":"bpbabe","avg":4},
-{"_id":"sdancingsteph","avg":4}]
+ [{"_id":"RobFoxKerr","saltyness":4},
+{"_id":"puchal_ek","saltyness":4},
+{"_id":"EvolveTom","saltyness":4},
+{"_id":"bpbabe","saltyness":4},
+{"_id":"sdancingsteph","saltyness":4}]
